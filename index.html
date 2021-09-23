@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>My First Beautiful Webpage</title>
+    <style media="screen">
+      body{
+        background-image: url("img/index.jpg");
+        background-size: 100%;
+      }
+    </style>
   </head>
   <body>
     <!--Top Section -->
@@ -21,9 +27,9 @@
     <!--Details Section-->
     <h3>Education</h3>
     <ul>
-      <li>Hardvard Kindergarten Graduate</li>
+      <li>Harvard Kindergarten Graduate</li>
       <li>Stanford Elementary Graduate</li>
-      <li>High School at home XD</li>
+      <li>High School at home</li>
     </ul>
     <hr>
     <h3>Work Experience</h3>
@@ -36,8 +42,16 @@
       </thead>
       <tbody>
         <tr>
-          <td>09-11-2001</td>
-          <td>Enemy of the State</td>
+          <td>390 BC</td>
+          <td>Took lessons from Plato</td>
+        </tr>
+        <tr>
+          <td>13-12-1937</td>
+          <td>Served for North Korea</td>
+        </tr>
+        <tr>
+          <td>15-09-1949</td>
+          <td>Ascension to Enemy of the State status</td>
         </tr>
       </tbody>
     </table>
@@ -82,8 +96,7 @@
     </table>
     <hr>
     <!-- Links -->
-    <a href="Hobbies.html">Hobbies</a>
-    <a href="Contacts.html">Contacts</a>
-
+    <button onclick="document.location='Hobbies.html'">Hobbies</button>
+    <button onclick="document.location='Contacts.html'">Contacts</button>
   </body>
 </html>
